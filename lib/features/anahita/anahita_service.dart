@@ -2,6 +2,7 @@
 library;
 
 import 'anahita_cache.dart';
+import 'anahita_strings.dart';
 import 'anahita_defaults.dart';
 import 'anahita_options.dart';
 import 'models.dart';
@@ -79,8 +80,9 @@ class AnahitaService {
     final resolved = await _client.geocode(location);
     if (resolved == null) {
       throw AnahitaException(
-        "Anahita could not find '$location'. Check the spelling, or pass coordinates "
-        'as --at 52.52,13.41',
+        '${AnahitaStrings.locationNotFoundMsg.replaceFirst('%s', location)} '
+        '${AnahitaStrings.notFoundPrefix} '
+        '${AnahitaStrings.notFoundCoordinateHint}${AnahitaStrings.coordinateExample}',
       );
     }
 

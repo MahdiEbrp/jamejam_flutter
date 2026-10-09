@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../core/theme_constants.dart';
+import '../core/color_tokens.dart';
 
 /// The toolbox palette and Material 3 theme pair.
 ///
@@ -6,7 +8,7 @@ import 'package:flutter/material.dart';
 /// visual identity; features only choose semantic roles, never raw colours.
 abstract final class AppTheme {
   /// Primary seed — the teal of Anahita (water) and of Persian tilework.
-  static const Color seed = Color(0xFF0E7C86);
+  static const Color seed = Color(ColorTokens.seedHex);
 
   /// The UI font family. Vazirmatn covers Latin *and* Persian, so switching locale never
   /// changes the typeface — and Persian text keeps correct RTL metrics instead of falling
@@ -14,7 +16,7 @@ abstract final class AppTheme {
   static const String fontFamily = 'Vazirmatn';
 
   /// Secondary accent — the gold of a Ganjoor coin.
-  static const Color accent = Color(0xFFC9A227);
+  static const Color accent = Color(ColorTokens.accentHex);
 
   static ThemeData light() => _build(Brightness.light);
 
@@ -37,46 +39,46 @@ abstract final class AppTheme {
         centerTitle: false,
         backgroundColor: scheme.surface,
         surfaceTintColor: scheme.surfaceTint,
-        elevation: 0,
-        scrolledUnderElevation: 2,
+        elevation: ThemeConstants.elevationAppBar,
+        scrolledUnderElevation: ThemeConstants.elevationAppBarScrolled,
       ),
       cardTheme: CardThemeData(
-        elevation: 0,
+        elevation: ThemeConstants.elevationCard,
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(ThemeConstants.borderRadiusCard),
           side: BorderSide(color: scheme.outlineVariant),
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
-        fillColor: scheme.surfaceContainerHighest.withValues(alpha: 0.35),
+        fillColor: scheme.surfaceContainerHighest.withValues(alpha: ThemeConstants.fillAlpha),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(ThemeConstants.borderRadiusInput),
           borderSide: BorderSide(color: scheme.outlineVariant),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(ThemeConstants.borderRadiusInput),
           borderSide: BorderSide(color: scheme.outlineVariant),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-          borderSide: BorderSide(color: scheme.primary, width: 2),
+          borderRadius: BorderRadius.circular(ThemeConstants.borderRadiusInput),
+          borderSide: BorderSide(color: scheme.primary, width: ThemeConstants.inputBorderWidthFocused),
         ),
       ),
       listTileTheme: const ListTileThemeData(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(12)),
+          borderRadius: BorderRadius.all(Radius.circular(ThemeConstants.borderRadiusListTile)),
         ),
       ),
       dividerTheme: DividerThemeData(
         color: scheme.outlineVariant,
-        space: 1,
-        thickness: 1,
+        space: ThemeConstants.dividerSpace,
+        thickness: ThemeConstants.dividerThickness,
       ),
       snackBarTheme: SnackBarThemeData(
         behavior: SnackBarBehavior.floating,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(ThemeConstants.borderRadiusSnackBar)),
       ),
     );
   }
