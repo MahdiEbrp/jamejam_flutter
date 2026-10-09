@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The theme's seed colour (`AppTheme.seed`), so the launch window matches the app's own
+         chrome instead of flashing white before the first frame. -->
+    <color name="jamejam_seed">#0E7C86</color>
+</resources>

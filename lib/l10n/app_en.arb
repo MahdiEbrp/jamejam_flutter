@@ -1,0 +1,1638 @@
+{
+  "@@locale": "en",
+  "appTitle": "JameJam",
+  "@appTitle": {
+    "description": "The application name."
+  },
+  "appTagline": "A private, local-first toolbox",
+  "@appTagline": {},
+  "navDashboard": "Home",
+  "@navDashboard": {},
+  "navGreeter": "Greeter",
+  "@navGreeter": {},
+  "navHaftKhan": "Haft Khan",
+  "@navHaftKhan": {},
+  "navAnahita": "Anahita",
+  "@navAnahita": {},
+  "navGanjoor": "Ganjoor",
+  "@navGanjoor": {},
+  "navRaz": "Raz",
+  "@navRaz": {},
+  "navDivan": "Divan",
+  "@navDivan": {},
+  "navTaqvim": "Taqvim",
+  "@navTaqvim": {},
+  "navSoroush": "Soroush AI",
+  "@navSoroush": {},
+  "navSettings": "Settings",
+  "@navSettings": {},
+  "haftKhanConfirmRemove": "Remove #{id} “{title}”? This cannot be undone except with Undo.",
+  "@haftKhanConfirmRemove": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanConfirmClearDone": "Remove all {count} conquered task(s)?",
+  "@haftKhanConfirmClearDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanConfirmImportReplace": "Importing with “replace” wipes the current store first. Continue?",
+  "@haftKhanConfirmImportReplace": {},
+  "anahitaTabNow": "Now",
+  "@anahitaTabNow": {},
+  "anahitaTabForecast": "Forecast",
+  "@anahitaTabForecast": {},
+  "anahitaTabHourly": "Hourly",
+  "@anahitaTabHourly": {},
+  "anahitaTabAlerts": "Alerts",
+  "@anahitaTabAlerts": {},
+  "anahitaTabBest": "Best days",
+  "@anahitaTabBest": {},
+  "anahitaTabPlan": "Plan",
+  "@anahitaTabPlan": {},
+  "anahitaUnitsMetric": "°C",
+  "@anahitaUnitsMetric": {},
+  "anahitaUnitsImperial": "°F",
+  "@anahitaUnitsImperial": {},
+  "anahitaLocation": "Location",
+  "@anahitaLocation": {},
+  "anahitaLocationHint": "Berlin, or 52.52,13.41",
+  "@anahitaLocationHint": {},
+  "anahitaSaveLocation": "Save place",
+  "@anahitaSaveLocation": {},
+  "anahitaLocationSaved": "Location saved: {place} — the app uses it from now on.",
+  "@anahitaLocationSaved": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "anahitaAsOf": "{place} · timezone {timezone}",
+  "@anahitaAsOf": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      },
+      "timezone": {
+        "type": "String"
+      }
+    }
+  },
+  "anahitaFetchFailed": "The weather could not be fetched",
+  "@anahitaFetchFailed": {},
+  "anahitaNothingYet": "Name a place and fetch the forecast.",
+  "@anahitaNothingYet": {},
+  "anahitaFeelsLike": "feels like {value}",
+  "@anahitaFeelsLike": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "anahitaHumidity": "Humidity",
+  "@anahitaHumidity": {},
+  "anahitaWind": "Wind",
+  "@anahitaWind": {},
+  "anahitaWindDirection": "{direction}",
+  "@anahitaWindDirection": {
+    "placeholders": {
+      "direction": {
+        "type": "String"
+      }
+    }
+  },
+  "anahitaPrecipitation": "Precipitation",
+  "@anahitaPrecipitation": {},
+  "anahitaSun": "Sun",
+  "@anahitaSun": {},
+  "anahitaUvMax": "UV max",
+  "@anahitaUvMax": {},
+  "anahitaForecastTitle": "{days}-day forecast",
+  "@anahitaForecastTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "anahitaHourlyTitle": "Next {hours} hour(s)",
+  "@anahitaHourlyTitle": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "anahitaNoAlerts": "Nothing to warn about in the next days.",
+  "@anahitaNoAlerts": {},
+  "anahitaBestTitle": "Best days outdoors",
+  "@anahitaBestTitle": {},
+  "anahitaBestSubtitle": "Ranked by rain chance, temperature, wind, and storms",
+  "@anahitaBestSubtitle": {},
+  "anahitaScore": "score {score}",
+  "@anahitaScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "anahitaPlanTitle": "Weather for your plans",
+  "@anahitaPlanTitle": {},
+  "anahitaPlanSubtitle": "Open tasks grouped under their due day's forecast",
+  "@anahitaPlanSubtitle": {},
+  "anahitaNothingToCopy": "Nothing to copy yet.",
+  "@anahitaNothingToCopy": {},
+  "anahitaExplain": "Explain",
+  "@anahitaExplain": {},
+  "anahitaExplanationRequested": "Explanation ready — check the AI screen for the full history.",
+  "@anahitaExplanationRequested": {},
+  "anahitaAiPlan": "AI plan",
+  "@anahitaAiPlan": {},
+  "anahitaAskTitle": "Ask about this forecast",
+  "@anahitaAskTitle": {},
+  "anahitaAskSubtitle": "The answer uses only the data above",
+  "@anahitaAskSubtitle": {},
+  "anahitaAskLabel": "Question",
+  "@anahitaAskLabel": {},
+  "anahitaAskHint": "Should I cycle at 6pm?",
+  "@anahitaAskHint": {},
+  "anahitaAsk": "Ask",
+  "@anahitaAsk": {},
+  "anahitaAnswered": "Answer ready.",
+  "@anahitaAnswered": {},
+  "razTitle": "Raz — encrypted vault",
+  "@razTitle": {},
+  "razSubtitle": "Secrets live here in ciphertext: AES-256-GCM with a PBKDF2-HMAC-SHA512 key. Nothing leaves this device.",
+  "@razSubtitle": {},
+  "razCreateTitle": "Create your vault",
+  "@razCreateTitle": {},
+  "razUnlockTitle": "Unlock the vault",
+  "@razUnlockTitle": {},
+  "razPassphraseHint": "The passphrase is never stored in the vault — it derives the key that decrypts it.",
+  "@razPassphraseHint": {},
+  "razPassphrase": "Passphrase",
+  "@razPassphrase": {},
+  "razRememberPassphrase": "Remember in the keychain",
+  "@razRememberPassphrase": {},
+  "razCreate": "Create vault",
+  "@razCreate": {},
+  "razUnlock": "Unlock",
+  "@razUnlock": {},
+  "razVaultCreated": "Vault created and unlocked.",
+  "@razVaultCreated": {},
+  "razUnlocked": "Vault unlocked.",
+  "@razUnlocked": {},
+  "razUseStoredPassphrase": "Use remembered passphrase",
+  "@razUseStoredPassphrase": {},
+  "razNoStoredPassphrase": "No remembered passphrase — type one.",
+  "@razNoStoredPassphrase": {},
+  "razForgetPassphrase": "Forget",
+  "@razForgetPassphrase": {},
+  "razPassphraseForgotten": "Remembered passphrase removed.",
+  "@razPassphraseForgotten": {},
+  "razLocalOnly": "There is no sync adapter for Raz, by design: secrets have no code path to a network transport.",
+  "@razLocalOnly": {},
+  "razSearch": "Search",
+  "@razSearch": {},
+  "razFilterFavorites": "Favorites",
+  "@razFilterFavorites": {},
+  "razFilterWeak": "Weak",
+  "@razFilterWeak": {},
+  "razFilterExpired": "Expired",
+  "@razFilterExpired": {},
+  "razTagFilter": "Tag: {tag}",
+  "@razTagFilter": {
+    "type": "String"
+  },
+  "razAddEntry": "New entry",
+  "@razAddEntry": {},
+  "razEditEntry": "Edit entry",
+  "@razEditEntry": {},
+  "razEntryAdded": "Entry added.",
+  "@razEntryAdded": {},
+  "razEntrySaved": "Entry saved.",
+  "@razEntrySaved": {},
+  "razEntryDeleted": "Entry deleted — undo brings it back.",
+  "@razEntryDeleted": {},
+  "razInvalidDate": "Dates look like yyyy-MM-dd.",
+  "@razInvalidDate": {},
+  "razUndone": "Last change undone.",
+  "@razUndone": {},
+  "razNothingToUndo": "Nothing to undo.",
+  "@razNothingToUndo": {},
+  "razAudit": "Audit",
+  "@razAudit": {},
+  "razAuditDone": "Audit refreshed.",
+  "@razAuditDone": {},
+  "razAiAudit": "Ask the coach",
+  "@razAiAudit": {},
+  "razExport": "Export",
+  "@razExport": {},
+  "razExported": "Encrypted bundle copied to the clipboard.",
+  "@razExported": {},
+  "razImport": "Import",
+  "@razImport": {},
+  "razImportTitle": "Import a vault backup",
+  "@razImportTitle": {},
+  "razImportBundle": "Encrypted bundle",
+  "@razImportBundle": {},
+  "razImported": "Imported {count} entry(ies).",
+  "@razImported": {
+    "type": "int"
+  },
+  "razLock": "Lock",
+  "@razLock": {},
+  "razLocked": "Vault locked and the key wiped from memory.",
+  "@razLocked": {},
+  "razNoEntries": "No entries match. Add one, or clear the filters.",
+  "@razNoEntries": {},
+  "razUntitled": "(untitled)",
+  "@razUntitled": {},
+  "razExpiresOn": "expires {date}",
+  "@razExpiresOn": {
+    "type": "String"
+  },
+  "razTotpValue": "TOTP {code} — {seconds}s left",
+  "@razTotpValue": {
+    "type": "String"
+  },
+  "razRevealSecret": "Reveal",
+  "@razRevealSecret": {},
+  "razHideSecret": "Hide",
+  "@razHideSecret": {},
+  "razTotpRefresh": "Refresh TOTP",
+  "@razTotpRefresh": {},
+  "razCopySecret": "Copy secret",
+  "@razCopySecret": {},
+  "razDeleteTitle": "Delete this entry?",
+  "@razDeleteTitle": {},
+  "razDeleteMessage": "“{title}” will be removed. Undo can bring it back until the vault closes.",
+  "@razDeleteMessage": {
+    "type": "String"
+  },
+  "razFieldTitle": "Title",
+  "@razFieldTitle": {},
+  "razFieldSecret": "Secret",
+  "@razFieldSecret": {},
+  "razFieldUsername": "Username",
+  "@razFieldUsername": {},
+  "razFieldUrl": "URL",
+  "@razFieldUrl": {},
+  "razFieldNotes": "Notes",
+  "@razFieldNotes": {},
+  "razFieldTags": "Tags (comma-separated)",
+  "@razFieldTags": {},
+  "razFieldExpires": "Expires on",
+  "@razFieldExpires": {},
+  "razFieldTotpSeed": "TOTP seed (Base32)",
+  "@razFieldTotpSeed": {},
+  "razFieldTotpDigits": "Digits",
+  "@razFieldTotpDigits": {},
+  "razFieldTotpPeriod": "Period (s)",
+  "@razFieldTotpPeriod": {},
+  "razFieldFavorite": "Favorite",
+  "@razFieldFavorite": {},
+  "razGenerate": "Generate a password",
+  "@razGenerate": {},
+  "razAuditTitle": "Vault health",
+  "@razAuditTitle": {},
+  "razStatEntries": "entries",
+  "@razStatEntries": {},
+  "razStatWeak": "weak",
+  "@razStatWeak": {},
+  "razStatReused": "reused",
+  "@razStatReused": {},
+  "razStatExpired": "expired",
+  "@razStatExpired": {},
+  "razStatExpiringSoon": "expiring soon",
+  "@razStatExpiringSoon": {},
+  "razStatOld": "stale",
+  "@razStatOld": {},
+  "razStatAverageLength": "avg length",
+  "@razStatAverageLength": {},
+  "razStatUnique": "distinct secrets",
+  "@razStatUnique": {},
+  "razCoachTitle": "Security coach",
+  "@razCoachTitle": {},
+  "razCoachSubtitle": "The coach only ever sees aggregate counts — never titles, urls, usernames, notes, seeds, or secrets.",
+  "@razCoachSubtitle": {},
+  "razCoachQuestion": "Ask about your vault hygiene",
+  "@razCoachQuestion": {},
+  "razAsk": "Ask",
+  "@razAsk": {},
+  "commonSave": "Save",
+  "@commonSave": {},
+  "commonCancel": "Cancel",
+  "@commonCancel": {},
+  "commonDelete": "Delete",
+  "@commonDelete": {},
+  "commonRemove": "Remove",
+  "@commonRemove": {},
+  "commonAdd": "Add",
+  "@commonAdd": {},
+  "commonEdit": "Edit",
+  "@commonEdit": {},
+  "commonClose": "Close",
+  "@commonClose": {},
+  "commonRetry": "Retry",
+  "@commonRetry": {},
+  "commonRefresh": "Refresh",
+  "@commonRefresh": {},
+  "commonSearch": "Search",
+  "@commonSearch": {},
+  "commonClear": "Clear",
+  "@commonClear": {},
+  "commonUndo": "Undo",
+  "@commonUndo": {},
+  "commonCopy": "Copy",
+  "@commonCopy": {},
+  "commonCopied": "Copied to the clipboard",
+  "@commonCopied": {},
+  "commonError": "Something went wrong",
+  "@commonError": {},
+  "commonLoading": "Loading…",
+  "@commonLoading": {},
+  "commonEmpty": "Nothing here yet",
+  "@commonEmpty": {},
+  "commonConfirm": "Confirm",
+  "@commonConfirm": {},
+  "settingsTitle": "Settings",
+  "@settingsTitle": {},
+  "settingsSubtitle": "Non-secret configuration, stored in a local SQLite database",
+  "@settingsSubtitle": {},
+  "settingsKeyLabel": "Key",
+  "@settingsKeyLabel": {},
+  "settingsValueLabel": "Value",
+  "@settingsValueLabel": {},
+  "settingsAddTitle": "Add or update a setting",
+  "@settingsAddTitle": {},
+  "settingsSearchHint": "Filter keys…",
+  "@settingsSearchHint": {},
+  "settingsEmpty": "No settings saved yet.",
+  "@settingsEmpty": {},
+  "settingsNoMatch": "No key matches your filter.",
+  "@settingsNoMatch": {},
+  "settingsRefusedSecretTitle": "Refused: that looks like a secret",
+  "@settingsRefusedSecretTitle": {},
+  "settingsRefusedSecretBody": "The settings database is plaintext. Keep API keys, tokens and passwords in the secure store instead.",
+  "@settingsRefusedSecretBody": {},
+  "settingsRemoveTitle": "Remove this setting?",
+  "@settingsRemoveTitle": {},
+  "settingsRemoved": "Setting removed",
+  "@settingsRemoved": {},
+  "settingsSaved": "Setting saved",
+  "@settingsSaved": {},
+  "settingsClearAllTitle": "Clear every setting?",
+  "@settingsClearAllTitle": {},
+  "settingsClearAllBody": "This removes all saved settings from this device.",
+  "@settingsClearAllBody": {},
+  "settingsCleared": "Cleared {count} setting(s)",
+  "@settingsCleared": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {},
+  "settingsLanguageSystem": "Follow the system",
+  "@settingsLanguageSystem": {},
+  "settingsLanguageEnglish": "English",
+  "@settingsLanguageEnglish": {},
+  "settingsLanguagePersian": "Persian (فارسی)",
+  "@settingsLanguagePersian": {},
+  "settingsTheme": "Theme",
+  "@settingsTheme": {},
+  "settingsThemeSystem": "Follow the system",
+  "@settingsThemeSystem": {},
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": {},
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": {},
+  "settingsDatabase": "Database",
+  "@settingsDatabase": {},
+  "settingsWelcome": "Welcome to JameJam",
+  "@settingsWelcome": {},
+  "soroushTitle": "Soroush AI",
+  "@soroushTitle": {},
+  "soroushSubtitle": "One safe, provider-agnostic funnel for every AI call",
+  "@soroushSubtitle": {},
+  "soroushProvider": "Provider",
+  "@soroushProvider": {},
+  "soroushModel": "Model",
+  "@soroushModel": {},
+  "soroushEndpoint": "Endpoint",
+  "@soroushEndpoint": {},
+  "soroushApiKey": "API key",
+  "@soroushApiKey": {},
+  "soroushApiKeyHint": "Stored in the device secure store — never in the settings database",
+  "@soroushApiKeyHint": {},
+  "soroushApiKeySaved": "API key saved to the secure store",
+  "@soroushApiKeySaved": {},
+  "soroushApiKeyCleared": "API key removed",
+  "@soroushApiKeyCleared": {},
+  "soroushKeyConfigured": "Key configured ({masked})",
+  "@soroushKeyConfigured": {
+    "placeholders": {
+      "masked": {
+        "type": "String"
+      }
+    }
+  },
+  "soroushKeyMissing": "No API key configured",
+  "@soroushKeyMissing": {},
+  "soroushPromptHint": "Ask Soroush anything…",
+  "@soroushPromptHint": {},
+  "soroushSend": "Send",
+  "@soroushSend": {},
+  "soroushResponse": "Response",
+  "@soroushResponse": {},
+  "soroushMeta": "{provider} · {model} · {attempts} attempt(s) · {duration} ms",
+  "@soroushMeta": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "model": {
+        "type": "String"
+      },
+      "attempts": {
+        "type": "int"
+      },
+      "duration": {
+        "type": "int"
+      }
+    }
+  },
+  "soroushHistory": "Recent calls",
+  "@soroushHistory": {},
+  "soroushHistoryEmpty": "No calls yet — your prompts stay on this device.",
+  "@soroushHistoryEmpty": {},
+  "soroushClearHistory": "Clear history",
+  "@soroushClearHistory": {},
+  "soroushHistoryCleared": "History cleared",
+  "@soroushHistoryCleared": {},
+  "soroushInsecureEndpoint": "Insecure endpoint refused. Use HTTPS (plain HTTP is only allowed on loopback).",
+  "@soroushInsecureEndpoint": {},
+  "soroushLocalModel": "Loopback endpoint — no API key needed",
+  "@soroushLocalModel": {},
+  "soroushProviders": "Known providers",
+  "@soroushProviders": {},
+  "greeterTitle": "Greeter",
+  "@greeterTitle": {},
+  "greeterSubtitle": "Friendly greetings — locally, or crafted by Soroush AI",
+  "@greeterSubtitle": {},
+  "greeterNameLabel": "Your name",
+  "@greeterNameLabel": {},
+  "greeterNameHint": "Leave empty to greet the world",
+  "@greeterNameHint": {},
+  "greeterGreet": "Greet",
+  "@greeterGreet": {},
+  "greeterAiGreet": "Greet with AI",
+  "@greeterAiGreet": {},
+  "greeterDefaultName": "Default name",
+  "@greeterDefaultName": {},
+  "greeterDefaultNameSaved": "Default name saved",
+  "@greeterDefaultNameSaved": {},
+  "greeterGreetedWorld": "You greeted the world",
+  "@greeterGreetedWorld": {},
+  "greeterGreetedName": "You greeted {name}",
+  "@greeterGreetedName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greeterNeedsAiKey": "The AI greeting needs an API key — add one in Soroush AI.",
+  "@greeterNeedsAiKey": {},
+  "dashboardWelcome": "Welcome back",
+  "@dashboardWelcome": {},
+  "dashboardStep": "Step {number}",
+  "@dashboardStep": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardReady": "Ready",
+  "@dashboardReady": {},
+  "dashboardPlanned": "Planned",
+  "@dashboardPlanned": {},
+  "dashboardProgress": "{done} of {total} steps implemented",
+  "@dashboardProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanTitle": "Haft Khan — the seven labours",
+  "@haftKhanTitle": {},
+  "haftKhanStatsLine": "{todo} to do · {doing} doing · {done} done · {overdue} overdue",
+  "@haftKhanStatsLine": {
+    "placeholders": {
+      "todo": {
+        "type": "int"
+      },
+      "doing": {
+        "type": "int"
+      },
+      "done": {
+        "type": "int"
+      },
+      "overdue": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanStreak": "Streak {current} day(s) · best {best}",
+  "@haftKhanStreak": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "best": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanDoneWindow": "{today} conquered today · {week} in the last 7 days",
+  "@haftKhanDoneWindow": {
+    "placeholders": {
+      "today": {
+        "type": "int"
+      },
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanTabList": "List",
+  "@haftKhanTabList": {},
+  "haftKhanTabBoard": "Board",
+  "@haftKhanTabBoard": {},
+  "haftKhanTabMatrix": "Matrix",
+  "@haftKhanTabMatrix": {},
+  "haftKhanTabReport": "Report",
+  "@haftKhanTabReport": {},
+  "haftKhanViewOpen": "Open",
+  "@haftKhanViewOpen": {},
+  "haftKhanViewAll": "All",
+  "@haftKhanViewAll": {},
+  "haftKhanViewDone": "Done",
+  "@haftKhanViewDone": {},
+  "haftKhanViewToday": "Today",
+  "@haftKhanViewToday": {},
+  "haftKhanViewOverdue": "Overdue",
+  "@haftKhanViewOverdue": {},
+  "haftKhanFilterPriority": "Priority",
+  "@haftKhanFilterPriority": {},
+  "haftKhanFilterTag": "Tag",
+  "@haftKhanFilterTag": {},
+  "haftKhanFilterProject": "Project",
+  "@haftKhanFilterProject": {},
+  "haftKhanClearFilters": "Clear filters",
+  "@haftKhanClearFilters": {},
+  "haftKhanSearchHint": "Search titles, notes, projects, tags",
+  "@haftKhanSearchHint": {},
+  "haftKhanEmptyView": "No tasks in this view.",
+  "@haftKhanEmptyView": {},
+  "haftKhanNoMatches": "Nothing matches that search.",
+  "@haftKhanNoMatches": {},
+  "haftKhanAddTask": "Add a labour",
+  "@haftKhanAddTask": {},
+  "haftKhanFieldTitle": "Title",
+  "@haftKhanFieldTitle": {},
+  "haftKhanFieldNotes": "Notes",
+  "@haftKhanFieldNotes": {},
+  "haftKhanFieldDue": "Due",
+  "@haftKhanFieldDue": {},
+  "haftKhanFieldDueHint": "2026-09-25, tomorrow, next monday, in 3 days",
+  "@haftKhanFieldDueHint": {},
+  "haftKhanFieldPriority": "Priority",
+  "@haftKhanFieldPriority": {},
+  "haftKhanFieldEffort": "Effort",
+  "@haftKhanFieldEffort": {},
+  "haftKhanFieldRecurrence": "Repeats",
+  "@haftKhanFieldRecurrence": {},
+  "haftKhanFieldInterval": "Interval",
+  "@haftKhanFieldInterval": {},
+  "haftKhanFieldProject": "Project",
+  "@haftKhanFieldProject": {},
+  "haftKhanFieldTags": "Tags",
+  "@haftKhanFieldTags": {},
+  "haftKhanFieldTagsHint": "chores,quick",
+  "@haftKhanFieldTagsHint": {},
+  "haftKhanFieldBlockedBy": "Blocked by",
+  "@haftKhanFieldBlockedBy": {},
+  "haftKhanFieldBlockedByHint": "task ids, e.g. 1,4",
+  "@haftKhanFieldBlockedByHint": {},
+  "haftKhanStart": "Start",
+  "@haftKhanStart": {},
+  "haftKhanComplete": "Conquer",
+  "@haftKhanComplete": {},
+  "haftKhanCompleteAnyway": "Conquer anyway",
+  "@haftKhanCompleteAnyway": {},
+  "haftKhanClearDone": "Clear done",
+  "@haftKhanClearDone": {},
+  "haftKhanClearedDone": "Cleared {count} completed task(s).",
+  "@haftKhanClearedDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanUndoDone": "Reverted '{operation}' ({count} task(s) affected).",
+  "@haftKhanUndoDone": {
+    "placeholders": {
+      "operation": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanAiBreakdown": "Break down with AI",
+  "@haftKhanAiBreakdown": {},
+  "haftKhanAiSummary": "Summarise with AI",
+  "@haftKhanAiSummary": {},
+  "haftKhanPlanHeader": "Plan for #{id} — {title}\n{steps}",
+  "@haftKhanPlanHeader": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "steps": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanTransfer": "Import / export",
+  "@haftKhanTransfer": {},
+  "haftKhanExportJson": "Copy backup JSON",
+  "@haftKhanExportJson": {},
+  "haftKhanExportMarkdown": "Copy markdown",
+  "@haftKhanExportMarkdown": {},
+  "haftKhanExported": "Copied {count} task(s) to the clipboard.",
+  "@haftKhanExported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanExportedMarkdown": "Copied the markdown checklist.",
+  "@haftKhanExportedMarkdown": {},
+  "haftKhanImport": "Import from the box",
+  "@haftKhanImport": {},
+  "haftKhanImportReplace": "Replace everything first",
+  "@haftKhanImportReplace": {},
+  "haftKhanTransferHint": "Paste a backup JSON here",
+  "@haftKhanTransferHint": {},
+  "haftKhanImported": "Imported {tasks} task(s), {links} link(s).",
+  "@haftKhanImported": {
+    "placeholders": {
+      "tasks": {
+        "type": "int"
+      },
+      "links": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanBadPayload": "That payload could not be read",
+  "@haftKhanBadPayload": {},
+  "haftKhanAdded": "Added #{id}: {title}",
+  "@haftKhanAdded": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanStarted": "Started #{id}: {title}",
+  "@haftKhanStarted": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanConquered": "Conquered #{id}: {title}",
+  "@haftKhanConquered": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanRespawned": "Respawned #{id}: {title} (due {due})",
+  "@haftKhanRespawned": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "due": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanRemoved": "Removed #{id}.",
+  "@haftKhanRemoved": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanOverdueLabel": "overdue",
+  "@haftKhanOverdueLabel": {},
+  "haftKhanBlockedBy": "blocked by {ids}",
+  "@haftKhanBlockedBy": {
+    "placeholders": {
+      "ids": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanConqueredOn": "conquered {date}",
+  "@haftKhanConqueredOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanEvery": "every {interval} {kind}",
+  "@haftKhanEvery": {
+    "placeholders": {
+      "interval": {
+        "type": "int"
+      },
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "haftKhanColumnTodo": "TODO",
+  "@haftKhanColumnTodo": {},
+  "haftKhanColumnDoing": "DOING",
+  "@haftKhanColumnDoing": {},
+  "haftKhanColumnDone": "DONE",
+  "@haftKhanColumnDone": {},
+  "haftKhanColumnCount": "{count} task(s)",
+  "@haftKhanColumnCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "haftKhanFocusTitle": "Focus next",
+  "@haftKhanFocusTitle": {},
+  "haftKhanFocusSubtitle": "One fast, manageable step at a time",
+  "@haftKhanFocusSubtitle": {},
+  "formatDate": "{date}",
+  "@formatDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "divanTitle": "Divan — the notes pad",
+  "@divanTitle": {},
+  "divanSubtitle": "Markdown notes with notebooks, tags, wiki-links, checklists, a daily journal, and full-text search.",
+  "@divanSubtitle": {},
+  "divanStatNotebooks": "{count} notebooks",
+  "@divanStatNotebooks": {
+    "type": "int"
+  },
+  "divanStatNotes": "{count} notes",
+  "@divanStatNotes": {
+    "type": "int"
+  },
+  "divanStatWords": "{count} words",
+  "@divanStatWords": {
+    "type": "int"
+  },
+  "divanStatTodos": "{count} open todos",
+  "@divanStatTodos": {
+    "type": "int"
+  },
+  "divanStatArchived": "{count} archived",
+  "@divanStatArchived": {
+    "type": "int"
+  },
+  "divanSearchHint": "Search the pad",
+  "@divanSearchHint": {},
+  "divanFieldNotebook": "Notebook",
+  "@divanFieldNotebook": {},
+  "divanAllNotebooks": "All notebooks",
+  "@divanAllNotebooks": {},
+  "divanFieldTag": "Tag",
+  "@divanFieldTag": {},
+  "divanAllTags": "All tags",
+  "@divanAllTags": {},
+  "divanFilterPinned": "Pinned",
+  "@divanFilterPinned": {},
+  "divanFilterArchived": "Archived",
+  "@divanFilterArchived": {},
+  "divanFilterChecklists": "Checklists",
+  "@divanFilterChecklists": {},
+  "divanClearFilters": "Clear",
+  "@divanClearFilters": {},
+  "divanNewNote": "New note",
+  "@divanNewNote": {},
+  "divanNewNotebook": "New notebook",
+  "@divanNewNotebook": {},
+  "divanJournal": "Today's journal",
+  "@divanJournal": {},
+  "divanUndo": "Undo",
+  "@divanUndo": {},
+  "divanRefresh": "Refresh",
+  "@divanRefresh": {},
+  "divanTransfer": "Markdown files",
+  "@divanTransfer": {},
+  "divanSync": "Sync",
+  "@divanSync": {},
+  "divanNotebooks": "Notebooks",
+  "@divanNotebooks": {},
+  "divanNotes": "Notes",
+  "@divanNotes": {},
+  "divanNoNotes": "No notes match the filters yet.",
+  "@divanNoNotes": {},
+  "divanArchivedLabel": "archived",
+  "@divanArchivedLabel": {},
+  "divanNotebookMenu": "Notebook actions",
+  "@divanNotebookMenu": {},
+  "divanRenameNotebook": "Rename",
+  "@divanRenameNotebook": {},
+  "divanArchiveNotebook": "Archive",
+  "@divanArchiveNotebook": {},
+  "divanRestoreNotebook": "Restore",
+  "@divanRestoreNotebook": {},
+  "divanDelete": "Delete",
+  "@divanDelete": {},
+  "divanNoSelection": "Pick a note on the left, or create one.",
+  "@divanNoSelection": {},
+  "divanFieldTitle": "Title",
+  "@divanFieldTitle": {},
+  "divanFieldTags": "Tags",
+  "@divanFieldTags": {},
+  "divanFieldTagsHint": "Comma separated, e.g. work, idea",
+  "@divanFieldTagsHint": {},
+  "divanFieldBody": "Body",
+  "@divanFieldBody": {},
+  "divanFieldBodyHint": "Markdown — [[wiki-links]] and - [ ] checklists work",
+  "@divanFieldBodyHint": {},
+  "divanSave": "Save",
+  "@divanSave": {},
+  "divanPin": "Pin",
+  "@divanPin": {},
+  "divanUnpin": "Unpin",
+  "@divanUnpin": {},
+  "divanArchive": "Archive",
+  "@divanArchive": {},
+  "divanRestore": "Restore",
+  "@divanRestore": {},
+  "divanUpdatedAt": "Updated {stamp}",
+  "@divanUpdatedAt": {
+    "type": "String"
+  },
+  "divanMetricWords": "{count} words",
+  "@divanMetricWords": {
+    "type": "int"
+  },
+  "divanMetricCharacters": "{count} characters",
+  "@divanMetricCharacters": {
+    "type": "int"
+  },
+  "divanMetricReading": "{count} s to read",
+  "@divanMetricReading": {
+    "type": "int"
+  },
+  "divanMetricChecklist": "Checklist {done}/{total}",
+  "@divanMetricChecklist": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "divanMetricLinks": "{count} links",
+  "@divanMetricLinks": {
+    "type": "int"
+  },
+  "divanChecklist": "Checklist",
+  "@divanChecklist": {},
+  "divanLinks": "Wiki-links",
+  "@divanLinks": {},
+  "divanBacklinks": "Backlinks",
+  "@divanBacklinks": {},
+  "divanBacklinksEmpty": "Nothing links here yet.",
+  "@divanBacklinksEmpty": {},
+  "divanTodos": "Open todos",
+  "@divanTodos": {},
+  "divanTodoHint": "Add an item to today's journal",
+  "@divanTodoHint": {},
+  "divanAdd": "Add",
+  "@divanAdd": {},
+  "divanTodosEmpty": "No open checklist items.",
+  "@divanTodosEmpty": {},
+  "divanAi": "AI",
+  "@divanAi": {},
+  "divanAiClear": "Clear",
+  "@divanAiClear": {},
+  "divanAiSummarize": "Summarize",
+  "@divanAiSummarize": {},
+  "divanAiTitle": "Propose a title",
+  "@divanAiTitle": {},
+  "divanAiTags": "Propose tags",
+  "@divanAiTags": {},
+  "divanAskHint": "Ask the pad a question",
+  "@divanAskHint": {},
+  "divanAiAsk": "Ask",
+  "@divanAiAsk": {},
+  "divanAiApplyTitle": "Use this title",
+  "@divanAiApplyTitle": {},
+  "divanAiApplyTags": "Use these tags",
+  "@divanAiApplyTags": {},
+  "divanStats": "Stats",
+  "@divanStats": {},
+  "divanStatsDetail": "{tagged} tagged notes · {links} wiki-links",
+  "@divanStatsDetail": {
+    "placeholders": {
+      "tagged": {
+        "type": "int"
+      },
+      "links": {
+        "type": "int"
+      }
+    }
+  },
+  "divanDismiss": "Dismiss",
+  "@divanDismiss": {},
+  "divanTabNotes": "Notes",
+  "@divanTabNotes": {},
+  "divanTabEditor": "Editor",
+  "@divanTabEditor": {},
+  "divanTabTools": "Tools",
+  "@divanTabTools": {},
+  "divanCancel": "Cancel",
+  "@divanCancel": {},
+  "divanDeleteNoteTitle": "Delete “{title}”?",
+  "@divanDeleteNoteTitle": {
+    "type": "String"
+  },
+  "divanDeleteNotebookTitle": "Delete “{name}”?",
+  "@divanDeleteNotebookTitle": {
+    "type": "String"
+  },
+  "divanDeleteNotebookBody": "Its notes are deleted with it — this is one undoable step.",
+  "@divanDeleteNotebookBody": {},
+  "divanDeleteUndoable": "This is one undoable step.",
+  "@divanDeleteUndoable": {},
+  "divanFieldFolder": "Folder",
+  "@divanFieldFolder": {},
+  "divanTransferHint": "Export writes one .md file per active note; import reads every .md file back as a new note.",
+  "@divanTransferHint": {},
+  "divanExport": "Export",
+  "@divanExport": {},
+  "divanImport": "Import",
+  "@divanImport": {},
+  "divanSyncHint": "Merge keeps both devices' changes; pull never writes the remote; push replaces it.",
+  "@divanSyncHint": {},
+  "divanSyncMerge": "Merge",
+  "@divanSyncMerge": {},
+  "divanSyncPull": "Pull",
+  "@divanSyncPull": {},
+  "divanSyncPush": "Push",
+  "@divanSyncPush": {},
+  "divanDefaultNotebook": "Default notebook",
+  "@divanDefaultNotebook": {},
+  "divanEditorWrite": "Write",
+  "@divanEditorWrite": {},
+  "divanEditorPreview": "Preview",
+  "@divanEditorPreview": {},
+  "divanPreviewEmpty": "Nothing to preview yet.",
+  "@divanPreviewEmpty": {},
+  "ganjoorTitle": "Ganjoor — wallet",
+  "@ganjoorTitle": {},
+  "ganjoorTabAccounts": "Accounts",
+  "@ganjoorTabAccounts": {},
+  "ganjoorTabLedger": "Ledger",
+  "@ganjoorTabLedger": {},
+  "ganjoorTabTools": "Reports & plans",
+  "@ganjoorTabTools": {},
+  "ganjoorTotal": "Total",
+  "@ganjoorTotal": {},
+  "ganjoorAccounts": "Accounts",
+  "@ganjoorAccounts": {},
+  "ganjoorNoAccounts": "No accounts yet — add one to start.",
+  "@ganjoorNoAccounts": {},
+  "ganjoorShowArchived": "Show archived",
+  "@ganjoorShowArchived": {},
+  "ganjoorAccountAdd": "New account",
+  "@ganjoorAccountAdd": {},
+  "ganjoorAccountName": "Name",
+  "@ganjoorAccountName": {},
+  "ganjoorAccountCurrency": "Currency",
+  "@ganjoorAccountCurrency": {},
+  "ganjoorAccountStart": "Starting balance",
+  "@ganjoorAccountStart": {},
+  "ganjoorAccountArchived": "archived",
+  "@ganjoorAccountArchived": {},
+  "ganjoorAccountArchive": "Archive",
+  "@ganjoorAccountArchive": {},
+  "ganjoorAccountUnarchive": "Unarchive",
+  "@ganjoorAccountUnarchive": {},
+  "ganjoorAccountRename": "Rename",
+  "@ganjoorAccountRename": {},
+  "ganjoorAccountRemove": "Remove account",
+  "@ganjoorAccountRemove": {},
+  "ganjoorAccountRemoveConfirm": "Remove this account and leave its history behind?",
+  "@ganjoorAccountRemoveConfirm": {},
+  "ganjoorAccountRemoveForce": "This account holds transactions",
+  "@ganjoorAccountRemoveForce": {},
+  "ganjoorCancel": "Cancel",
+  "@ganjoorCancel": {},
+  "ganjoorSave": "Save",
+  "@ganjoorSave": {},
+  "ganjoorConfirm": "Confirm",
+  "@ganjoorConfirm": {},
+  "ganjoorQuickAdd": "Quick add",
+  "@ganjoorQuickAdd": {},
+  "ganjoorKindSpend": "Spend",
+  "@ganjoorKindSpend": {},
+  "ganjoorKindEarn": "Earn",
+  "@ganjoorKindEarn": {},
+  "ganjoorKindTransfer": "Transfer",
+  "@ganjoorKindTransfer": {},
+  "ganjoorFrom": "From",
+  "@ganjoorFrom": {},
+  "ganjoorTo": "To",
+  "@ganjoorTo": {},
+  "ganjoorAmount": "Amount",
+  "@ganjoorAmount": {},
+  "ganjoorCategory": "Category",
+  "@ganjoorCategory": {},
+  "ganjoorNotes": "Notes",
+  "@ganjoorNotes": {},
+  "ganjoorTags": "Tags",
+  "@ganjoorTags": {},
+  "ganjoorDate": "Date (yyyy-MM-dd)",
+  "@ganjoorDate": {},
+  "ganjoorAdd": "Add",
+  "@ganjoorAdd": {},
+  "ganjoorLedger": "Ledger",
+  "@ganjoorLedger": {},
+  "ganjoorLedgerEmpty": "No transactions match.",
+  "@ganjoorLedgerEmpty": {},
+  "ganjoorRemoveTransaction": "Delete transaction",
+  "@ganjoorRemoveTransaction": {},
+  "ganjoorFilterAccount": "Account",
+  "@ganjoorFilterAccount": {},
+  "ganjoorFilterKind": "Kind",
+  "@ganjoorFilterKind": {},
+  "ganjoorFilterCategory": "Category (Enter)",
+  "@ganjoorFilterCategory": {},
+  "ganjoorFilterAll": "All",
+  "@ganjoorFilterAll": {},
+  "ganjoorFilterQuery": "Search",
+  "@ganjoorFilterQuery": {},
+  "ganjoorFilterClear": "Clear filters",
+  "@ganjoorFilterClear": {},
+  "ganjoorPrevMonth": "Previous month",
+  "@ganjoorPrevMonth": {},
+  "ganjoorNextMonth": "Next month",
+  "@ganjoorNextMonth": {},
+  "ganjoorBudgets": "Budgets",
+  "@ganjoorBudgets": {},
+  "ganjoorBudgetEmpty": "No budgets set.",
+  "@ganjoorBudgetEmpty": {},
+  "ganjoorBudgetSet": "Set budget",
+  "@ganjoorBudgetSet": {},
+  "ganjoorBudgetRemove": "Remove budget",
+  "@ganjoorBudgetRemove": {},
+  "ganjoorBudgetLimit": "Monthly limit",
+  "@ganjoorBudgetLimit": {},
+  "ganjoorBudgetOver": "over budget",
+  "@ganjoorBudgetOver": {},
+  "ganjoorBudgetClose": "close to the limit",
+  "@ganjoorBudgetClose": {},
+  "ganjoorBills": "Bills",
+  "@ganjoorBills": {},
+  "ganjoorBillEmpty": "No bills yet.",
+  "@ganjoorBillEmpty": {},
+  "ganjoorBillApply": "Apply due",
+  "@ganjoorBillApply": {},
+  "ganjoorBillRemove": "Remove bill",
+  "@ganjoorBillRemove": {},
+  "ganjoorBillDue": "due",
+  "@ganjoorBillDue": {},
+  "ganjoorGoals": "Goals",
+  "@ganjoorGoals": {},
+  "ganjoorGoalEmpty": "No goals yet.",
+  "@ganjoorGoalEmpty": {},
+  "ganjoorGoalContribute": "Add to goal",
+  "@ganjoorGoalContribute": {},
+  "ganjoorGoalWithdraw": "Take from goal",
+  "@ganjoorGoalWithdraw": {},
+  "ganjoorGoalNearlyDone": "almost there",
+  "@ganjoorGoalNearlyDone": {},
+  "ganjoorDebts": "Debts",
+  "@ganjoorDebts": {},
+  "ganjoorDebtEmpty": "No debts tracked.",
+  "@ganjoorDebtEmpty": {},
+  "ganjoorDebtSettle": "Settle",
+  "@ganjoorDebtSettle": {},
+  "ganjoorDebtRemove": "Remove debt",
+  "@ganjoorDebtRemove": {},
+  "ganjoorDebtOwedByMe": "you owe",
+  "@ganjoorDebtOwedByMe": {},
+  "ganjoorDebtOwedToMe": "owed by",
+  "@ganjoorDebtOwedToMe": {},
+  "ganjoorDebtOutstanding": "outstanding",
+  "@ganjoorDebtOutstanding": {},
+  "ganjoorDebtFullySettled": "fully settled",
+  "@ganjoorDebtFullySettled": {},
+  "ganjoorReports": "Reports",
+  "@ganjoorReports": {},
+  "ganjoorIncome": "Income",
+  "@ganjoorIncome": {},
+  "ganjoorExpenses": "Expenses",
+  "@ganjoorExpenses": {},
+  "ganjoorNet": "Net",
+  "@ganjoorNet": {},
+  "ganjoorTopCategories": "Top categories",
+  "@ganjoorTopCategories": {},
+  "ganjoorUndo": "Undo",
+  "@ganjoorUndo": {},
+  "ganjoorRefresh": "Refresh",
+  "@ganjoorRefresh": {},
+  "ganjoorTransfer": "Backup & files",
+  "@ganjoorTransfer": {},
+  "ganjoorTransferPath": "File path",
+  "@ganjoorTransferPath": {},
+  "ganjoorExportJson": "Export JSON",
+  "@ganjoorExportJson": {},
+  "ganjoorImportJson": "Import JSON",
+  "@ganjoorImportJson": {},
+  "ganjoorExportCsv": "Export CSV",
+  "@ganjoorExportCsv": {},
+  "ganjoorImportCsv": "Import CSV",
+  "@ganjoorImportCsv": {},
+  "ganjoorCsvAccount": "CSV account",
+  "@ganjoorCsvAccount": {},
+  "ganjoorAi": "Finance assistant",
+  "@ganjoorAi": {},
+  "ganjoorAiInsights": "Insights",
+  "@ganjoorAiInsights": {},
+  "ganjoorAiAsk": "Ask",
+  "@ganjoorAiAsk": {},
+  "ganjoorAiQuestion": "Your question",
+  "@ganjoorAiQuestion": {},
+  "ganjoorAiAnswer": "Answer",
+  "@ganjoorAiAnswer": {},
+  "ganjoorAiClear": "Clear",
+  "@ganjoorAiClear": {},
+  "ganjoorAiCategorize": "Suggest a category",
+  "@ganjoorAiCategorize": {},
+  "ganjoorAiUnavailable": "AI is not available in this context.",
+  "@ganjoorAiUnavailable": {},
+  "ganjoorCount": "{count} shown",
+  "@ganjoorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ganjoorFromBill": "bill #{id}",
+  "@ganjoorFromBill": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "ganjoorBillNext": "next {date}",
+  "@ganjoorBillNext": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ganjoorGoalDeadline": "by {date}",
+  "@ganjoorGoalDeadline": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ganjoorDebtSettled": "settled {amount}",
+  "@ganjoorDebtSettled": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "ganjoorNetWorth": "Net worth: {total}",
+  "@ganjoorNetWorth": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "ganjoorNetWorthBreakdown": "accounts {accounts}, owed to you {receivable}, you owe {payable}",
+  "@ganjoorNetWorthBreakdown": {
+    "placeholders": {
+      "accounts": {
+        "type": "String"
+      },
+      "receivable": {
+        "type": "String"
+      },
+      "payable": {
+        "type": "String"
+      }
+    }
+  },
+  "navSync": "Sync",
+  "syncTitle": "Sync",
+  "syncIntro": "Two devices converge on one document per service. Each run pulls, merges by identity, then writes the merged result back — no cursors, nothing to corrupt.",
+  "syncDismiss": "Dismiss",
+  "syncDeviceTitle": "This device",
+  "syncDeviceHint": "The identity travels inside every envelope, so the other device can tell who sealed the remote.",
+  "syncDeviceName": "Device name",
+  "syncDeviceId": "Device id",
+  "syncSave": "Save",
+  "syncTokenSet": "JAMEJAM_SYNC_TOKEN is set",
+  "syncTokenMissing": "No sync token — the remote must accept anonymous writes",
+  "syncServiceTag": "Service tag {service} · saved as {key}",
+  "@syncServiceTag": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      },
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "syncUrl": "Sync URL",
+  "syncEnvOverride": "JAMEJAM_SYNC_URL wins over every saved URL: {url}",
+  "@syncEnvOverride": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "syncMode": "Mode",
+  "syncModeMerge": "Merge",
+  "syncModePull": "Pull",
+  "syncModePush": "Push",
+  "syncModeMergeHint": "Pull, merge, and write the merged result back — both devices converge.",
+  "syncModePullHint": "Pull and merge into this device only; the remote is never written.",
+  "syncModePushHint": "Replace the remote with this device's state. It asks first when the remote holds other changes.",
+  "syncSaveUrl": "Save URL",
+  "syncRun": "Sync now",
+  "syncRulesTitle": "What stays true",
+  "syncRuleHttps": "HTTPS only — plain HTTP is allowed on loopback for a local server.",
+  "syncRuleToken": "The bearer token comes from JAMEJAM_SYNC_TOKEN and is never stored or shown.",
+  "syncRuleConverge": "Merging is deterministic and commutative, so repeated runs land on the same state on every device.",
+  "syncRuleRaz": "Raz never syncs: the vault is encrypted on this device and has no adapter, by design.",
+  "syncProtocol": "Wire protocol: jamejam.sync/1 · one service per URL",
+  "syncOverwriteTitle": "Overwrite the remote?",
+  "syncOverwrite": "Overwrite",
+  "syncCancel": "Cancel",
+  "syncDeviceIdPending": "Created by the first sync",
+  "taqvimAgendaTitle": "Agenda",
+  "@taqvimAgendaTitle": {},
+  "taqvimAgendaSubtitle": "Events in the chosen scope, with this calendar's own conflicts flagged.",
+  "@taqvimAgendaSubtitle": {},
+  "taqvimAgendaEmpty": "Nothing scheduled in this scope.",
+  "@taqvimAgendaEmpty": {},
+  "taqvimPreviousDay": "Previous day",
+  "@taqvimPreviousDay": {},
+  "taqvimNextDay": "Next day",
+  "@taqvimNextDay": {},
+  "taqvimRefresh": "Reload",
+  "@taqvimRefresh": {},
+  "taqvimUndo": "Undo the last change",
+  "@taqvimUndo": {},
+  "taqvimFilterCalendar": "Calendar",
+  "@taqvimFilterCalendar": {},
+  "taqvimFilterTag": "Tag",
+  "@taqvimFilterTag": {},
+  "taqvimFilterApply": "Filter",
+  "@taqvimFilterApply": {},
+  "taqvimConflictCount": "{count} conflict(s)",
+  "@taqvimConflictCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatEvents": "{count} events",
+  "@taqvimStatEvents": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatRecurring": "{count} repeating",
+  "@taqvimStatRecurring": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatAllDay": "{count} all-day",
+  "@taqvimStatAllDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatTagged": "{count} tagged",
+  "@taqvimStatTagged": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatReminders": "{count} reminders",
+  "@taqvimStatReminders": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatNextSevenDays": "{count} in the next 7 days",
+  "@taqvimStatNextSevenDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimStatBusyMinutes": "{minutes} busy minutes",
+  "@taqvimStatBusyMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimCaptureTitle": "Quick capture",
+  "@taqvimCaptureTitle": {},
+  "taqvimCaptureSubtitle": "Write a sentence; the parser fills the editor. Nothing is invented when the sentence carries no date or time.",
+  "@taqvimCaptureSubtitle": {},
+  "taqvimCaptureHint": "lunch with Sara next Tuesday at 1pm",
+  "@taqvimCaptureHint": {},
+  "taqvimCaptureAction": "Capture",
+  "@taqvimCaptureAction": {},
+  "taqvimEditorNewTitle": "New event",
+  "@taqvimEditorNewTitle": {},
+  "taqvimEditorEditTitle": "Event #{id}",
+  "@taqvimEditorEditTitle": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimEditorSubtitle": "The same rails as the CLI: a title, an end after the start, bounded tags and reminders.",
+  "@taqvimEditorSubtitle": {},
+  "taqvimEditorNewAction": "New",
+  "@taqvimEditorNewAction": {},
+  "taqvimFieldTitle": "Title",
+  "@taqvimFieldTitle": {},
+  "taqvimFieldStart": "Start",
+  "@taqvimFieldStart": {},
+  "taqvimFieldEnd": "End",
+  "@taqvimFieldEnd": {},
+  "taqvimWhenHint": "2026-09-21 14:30, 2026-09-21, or 14:30",
+  "@taqvimWhenHint": {},
+  "taqvimFieldAllDay": "All day",
+  "@taqvimFieldAllDay": {},
+  "taqvimFieldCalendar": "Calendar",
+  "@taqvimFieldCalendar": {},
+  "taqvimFieldLocation": "Location",
+  "@taqvimFieldLocation": {},
+  "taqvimFieldTags": "Tags",
+  "@taqvimFieldTags": {},
+  "taqvimTagsHint": "work, deep",
+  "@taqvimTagsHint": {},
+  "taqvimFieldNotes": "Notes",
+  "@taqvimFieldNotes": {},
+  "taqvimFieldRepeat": "Repeat",
+  "@taqvimFieldRepeat": {},
+  "taqvimFieldRepeatInterval": "Every N",
+  "@taqvimFieldRepeatInterval": {},
+  "taqvimFieldReminders": "Remind (minutes before)",
+  "@taqvimFieldReminders": {},
+  "taqvimRemindersHint": "30, 10",
+  "@taqvimRemindersHint": {},
+  "taqvimRepeatOnce": "Once",
+  "@taqvimRepeatOnce": {},
+  "taqvimRepeatDaily": "Daily",
+  "@taqvimRepeatDaily": {},
+  "taqvimRepeatWeekly": "Weekly",
+  "@taqvimRepeatWeekly": {},
+  "taqvimRepeatMonthly": "Monthly",
+  "@taqvimRepeatMonthly": {},
+  "taqvimRepeatYearly": "Yearly",
+  "@taqvimRepeatYearly": {},
+  "taqvimSaveAdd": "Add event",
+  "@taqvimSaveAdd": {},
+  "taqvimSaveEdit": "Save changes",
+  "@taqvimSaveEdit": {},
+  "taqvimDeleteAction": "Delete",
+  "@taqvimDeleteAction": {},
+  "taqvimDeleteConfirmTitle": "Delete this event?",
+  "@taqvimDeleteConfirmTitle": {},
+  "taqvimDeleteConfirmBody": "The deletion is recorded so other devices learn of it. Undo restores it.",
+  "@taqvimDeleteConfirmBody": {},
+  "taqvimScopeToday": "Today",
+  "@taqvimScopeToday": {},
+  "taqvimScopeTomorrow": "Tomorrow",
+  "@taqvimScopeTomorrow": {},
+  "taqvimScopeWeek": "This week",
+  "@taqvimScopeWeek": {},
+  "taqvimScopeMonth": "This month",
+  "@taqvimScopeMonth": {},
+  "taqvimScopeUpcoming": "Upcoming",
+  "@taqvimScopeUpcoming": {},
+  "taqvimSearchTitle": "Search",
+  "@taqvimSearchTitle": {},
+  "taqvimSearchSubtitle": "Full text over titles, notes and locations — every term must match.",
+  "@taqvimSearchSubtitle": {},
+  "taqvimSearchHint": "dentist x-rays",
+  "@taqvimSearchHint": {},
+  "taqvimSearchAction": "Search",
+  "@taqvimSearchAction": {},
+  "taqvimSearchEmpty": "No search yet.",
+  "@taqvimSearchEmpty": {},
+  "taqvimWindowsTitle": "Free windows",
+  "@taqvimWindowsTitle": {},
+  "taqvimWindowsSubtitle": "The gaps between events inside a window of the day; clashes are flagged under the agenda.",
+  "@taqvimWindowsSubtitle": {},
+  "taqvimFieldDay": "Day",
+  "@taqvimFieldDay": {},
+  "taqvimDayHint": "2026-09-21",
+  "@taqvimDayHint": {},
+  "taqvimFieldFrom": "From",
+  "@taqvimFieldFrom": {},
+  "taqvimFieldTo": "To",
+  "@taqvimFieldTo": {},
+  "taqvimFieldMinutes": "Min",
+  "@taqvimFieldMinutes": {},
+  "taqvimFreeAction": "Find free windows",
+  "@taqvimFreeAction": {},
+  "taqvimFreeEmpty": "No free windows computed yet.",
+  "@taqvimFreeEmpty": {},
+  "taqvimFreeMinutesLabel": "{minutes} min free",
+  "@taqvimFreeMinutesLabel": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "taqvimTransferTitle": "Import and export (.ics)",
+  "@taqvimTransferTitle": {},
+  "taqvimTransferSubtitle": "One document, at most 2000 events, timestamps in UTC.",
+  "@taqvimTransferSubtitle": {},
+  "taqvimTransferAction": "Open the .ics box",
+  "@taqvimTransferAction": {},
+  "taqvimTransferBody": "Paste an .ics document to import, or fill the box with the current export.",
+  "@taqvimTransferBody": {},
+  "taqvimExportAction": "Fill with export",
+  "@taqvimExportAction": {},
+  "taqvimImportAction": "Import",
+  "@taqvimImportAction": {},
+  "taqvimCopyAction": "Copy",
+  "@taqvimCopyAction": {},
+  "taqvimAiTitle": "Schedule assistant",
+  "@taqvimAiTitle": {},
+  "taqvimAiSubtitle": "Prompts carry the agenda inside ---EVENT BEGIN--- markers and say the text within is untrusted.",
+  "@taqvimAiSubtitle": {},
+  "taqvimAiBrief": "Brief the day",
+  "@taqvimAiBrief": {},
+  "taqvimAiPlan": "Plan the week",
+  "@taqvimAiPlan": {},
+  "taqvimAiCapture": "Suggest a command",
+  "@taqvimAiCapture": {},
+  "taqvimAiAsk": "Ask",
+  "@taqvimAiAsk": {},
+  "taqvimAiAskHint": "when is my next free hour?",
+  "@taqvimAiAskHint": {},
+  "taqvimAiEmpty": "No answer yet.",
+  "@taqvimAiEmpty": {},
+  "taqvimAiSuggestion": "Suggestion (copy, check, then run): {command}",
+  "@taqvimAiSuggestion": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsClearFilter": "Clear the filter",
+  "@settingsClearFilter": {},
+  "soroushShowKey": "Show the key",
+  "@soroushShowKey": {},
+  "soroushHideKey": "Hide the key",
+  "@soroushHideKey": {},
+  "a11yToolboxGrid": "The toolbox steps",
+  "@a11yToolboxGrid": {},
+  "a11yCalendarAgenda": "Agenda",
+  "@a11yCalendarAgenda": {},
+  "settingsMigrate": "Bring data across from the .NET toolbox",
+  "migrationTitle": "Bring your data across",
+  "migrationSubtitle": "Read a file the .NET toolbox exported, so nothing has to be retyped.",
+  "migrationPaste": "Paste from clipboard",
+  "migrationTextLabel": "The exported file",
+  "migrationTextHint": "Paste a .json backup or an .ics calendar here",
+  "migrationImport": "Import",
+  "migrationNothing": "Nothing pasted yet.",
+  "migrationNotJson": "This is neither JSON nor an .ics document.",
+  "migrationNotADocument": "This JSON is not a document this app can read.",
+  "migrationKindHaftKhan": "Haft Khan backup",
+  "migrationKindGanjoor": "Ganjoor wallet backup",
+  "migrationKindRaz": "Raz vault bundle",
+  "migrationKindTaqvim": "Taqvim calendar (.ics)",
+  "migrationNoteHaftKhan": "Haft Khan: the .json written by haftkhan export (versions 1 and 2).",
+  "migrationNoteGanjoor": "Ganjoor: the .json written by ganjoor export.",
+  "migrationNoteRaz": "Raz: the .json written by raz export — unlock the vault first; the bundle opens under the passphrase it was made with.",
+  "migrationNoteTaqvim": "Taqvim: the .ics written by taqvim export.",
+  "migrationNoteLocal": "Divan reads a folder of markdown files from its own transfer panel, and the SQLite files keep the names and shapes the .NET wrote — an existing ~/.jamejam folder is read in place.",
+  "migrationVersion": "version {version}",
+  "@migrationVersion": {"placeholders": {"version": {"type": "int"}}},
+  "migrationTasks": "{count} task(s)",
+  "@migrationTasks": {"placeholders": {"count": {"type": "int"}}},
+  "migrationLinks": "{count} link(s)",
+  "@migrationLinks": {"placeholders": {"count": {"type": "int"}}},
+  "migrationAccounts": "{count} account(s)",
+  "@migrationAccounts": {"placeholders": {"count": {"type": "int"}}},
+  "migrationTransactions": "{count} transaction(s)",
+  "@migrationTransactions": {"placeholders": {"count": {"type": "int"}}},
+  "migrationBudgets": "{count} budget(s)",
+  "@migrationBudgets": {"placeholders": {"count": {"type": "int"}}},
+  "migrationEvents": "{count} event(s)",
+  "@migrationEvents": {"placeholders": {"count": {"type": "int"}}},
+  "migrationResult": "Imported {kind}: {count} record(s).",
+  "@migrationResult": {"placeholders": {"kind": {"type": "String"}, "count": {"type": "int"}}}
+}

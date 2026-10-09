@@ -1,0 +1,67 @@
+name: jamejam
+description: "JameJam Toolbox — the Flutter port of the .NET 10 toolbox (Greeter, Soroush AI, Settings, Haft Khan, Anahita, Ganjoor, Raz, Divan, Taqvim, Sync)."
+publish_to: "none"
+version: 0.3.0+1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management — one ChangeNotifier controller per feature, injected via provider.
+  provider: ^6.0.0
+
+  # Internationalization (English + Persian/RTL).
+  intl: any
+
+  # Storage — one SQLite file per service, exactly like the .NET SqliteDatabase.
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  sqlite3_flutter_libs: ^0.5.0
+
+  # Paths and filesystem.
+  path: ^1.8.0
+  path_provider: ^2.0.0
+
+  # The Soroush AI transport + Sync transport.
+  http: ^1.0.0
+
+  # SHA-256 integrity checksums for sync envelopes (Step 9).
+
+  # Secrets live in the platform keychain — never in the plaintext settings database.
+  flutter_secure_storage: ^9.0.0
+
+  # Collection helpers used by the merge/undo layers.
+  collection: ^1.19.0
+  cryptography: ^2.9.0
+  crypto: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  pointycastle: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Vazirmatn — the Persian-first UI font (SIL OFL 1.1, github.com/rastikerdar/vazirmatn).
+  # It also covers Latin, so every screen uses one family and Persian never falls back to a
+  # font whose metrics break the RTL line boxes.
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Vazirmatn-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700

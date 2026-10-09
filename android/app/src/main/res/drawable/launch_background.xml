@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The launch window: the app's seed colour with the app's own mark centred on it, so the
+     wait for the first frame looks like the app rather than like a blank screen. The bitmap is
+     the same mark the launcher icon is cut from (`tool/icon/`). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/jamejam_seed" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launch_mark" />
+    </item>
+</layer-list>
